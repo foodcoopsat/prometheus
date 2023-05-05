@@ -1,4 +1,4 @@
-FROM prom/prometheus:v2.42.0
+FROM prom/prometheus:v2.43.1
 
 USER root
 RUN addgroup -g 999 docker
